@@ -1,0 +1,73 @@
+.carousel-item :active{
+    height: 32rem;
+    background-color: #777;
+    color: white;
+    position: relative;
+}
+.navbar {
+  position: relative;
+  background-color: #282626;
+  color: white;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding-bottom: 0px;
+}
+.carousel-caption{
+    color:white;
+}
+
+.col {
+    margin: gx-2;
+    border-color: solid green 2px;
+}
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+ }
+
+
+/* for image right top */
+.container-img {
+    position: relative;
+  }
+.circle-imagee {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.circle-image img {
+  width: 100%;
+  height: auto;
+}
+
+.justify-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Adjust the height as needed */
+  }
+  
+  .centered-content {
+    text-align: center;
+  }
+
+
+  
